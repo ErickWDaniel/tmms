@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "291607668768",
+    "firebase_url": "https://tmms-8a2ab-default-rtdb.firebaseio.com",
+    "project_id": "tmms-8a2ab",
+    "storage_bucket": "tmms-8a2ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291607668768:android:eecc68ff7355fef531b445",
+        "android_client_info": {
+          "package_name": "tz.ac.tz.tmms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuU0zik2k0mtMitqXvpXq0CkbygBipvBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

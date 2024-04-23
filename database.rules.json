@@ -1,0 +1,31 @@
+{
+  "rules": {
+    "users": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "chats": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "groups": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      "$groupUid": {
+        "$roomName": {
+          "groups_message": {
+            ".write": "auth != null"
+          }
+        }
+      }
+    },
+    "userphotolinks": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "admins": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+name: tmms
+description: "tb management system"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.8
+  firebase_database: ^10.4.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/picture/tmmsmain.jpeg
+    - assets/picture/lungs.png
+    
+   
